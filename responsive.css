@@ -31,6 +31,9 @@
 	footer{
 		text-align:center;
 	}
+	.midSection{
+		height: auto;
+	}
  }
 @media (max-width: 670px) {
 	
@@ -84,6 +87,9 @@
 	}
 	 footer {
 		text-align: center;
+	}
+	.midSection{
+		height: auto;
 	}
 
 }
