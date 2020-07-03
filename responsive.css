@@ -1,0 +1,88 @@
+
+@media (max-width: 1123px) {
+  .section {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+	header{
+		height: auto;
+	}
+	.h-center a{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.h-center{
+		width: 50%;
+	}
+	.h-left{
+		width: 50%;
+	}
+	.h-right{
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.contentTop h1 {
+		font-size: 32px;
+	}
+	
+	.heading h2 {
+		font-size: 20px;
+	}
+ }
+@media (max-width: 670px) {
+	
+	header{
+		height: auto;
+	}
+	.section {
+		width: 100%;
+	}
+	.btn {
+		width: 100%;            
+	}
+	.h-center a{
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	.h-center{
+		width: 50%;
+	}
+	.h-left{
+		font-size:15px;
+		width: 100%;
+	}
+	.h-right{
+		font-size:15px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.booking{
+		margin:0;
+	}
+	.arrival {
+		margin-bottom:5px;
+	}
+	.departure {
+		margin-bottom:5px;
+	}
+	.email {
+		margin-bottom:5px;
+	}
+	.menu-icon {
+		display: block;
+	}
+	.contentTop h1 {
+		font-size: 24px;
+		line-height: 26px;
+	}
+	.contentTop p {
+		font-size: 10px;
+		line-height: 15px;
+	}
+	 footer {
+		text-align: center;
+	}
+
+}
+
+ 

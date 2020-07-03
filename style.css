@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: left;
+}
+
+header{
+  background-color: rgba(15, 171, 188, 0.9);
+  color:white;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index:10;
+  text-align:center;
+  font-size: 20px;
+}
+
+.header-top{
+  padding-top: 15px;
+}
+.h-left{
+  width: 240px;
+  text-align: center;
+  display:inline-block;
+}
+.h-left a{
+  text-decoration: none;
+  color: white;
+  padding: 0px 5px;
+  margin-right: 5px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  transition:  background-color 0.5s linear;
+}
+.h-left a:hover{
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+}
+.h-center{
+  width: 400px;
+  display:inline-block;
+  margin: 0 100px;
+}
+.logo {
+  height: 30px;
+
+
+}
+.h-center a {
+  font-size: 30px;
+  display:block;
+}
+.h-right{
+  width: 240px;
+  display:inline-block;
+
+
+}
+.h-right a{
+  text-decoration: none;
+  color: white;
+  padding: 0px 5px;
+  margin-right: 5px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  transition:  background-color 0.5s linear;
+}
+.h-right a:hover{
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+}
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+color: white;
+float: right;
+font-size: 25px;
+padding: 21px 0;
+/* Gantikan property display ke none */
+display: none;
+ }
+.container{
+  max-width: 1170px;
+  with: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-section{
+  background-image: url("bg1.jpg");
+  background-size: cover;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+}
+.contentTop{
+ text-align: center;
+}
+.contentTop h1{
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.contentTop p {
+  margin-bottom:3px;
+  font-size: 25px;
+  opacity:0.9;
+}
+.btn-wrapper{
+  padding: 20px 0;
+}
+
+.btn-wrapperbook {
+  margin-top: 100px;
+}
+.btn{
+  padding: 12px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  color: white;
+}
+.btn:hover{
+  opacity: 1;
+}
+.explore {
+  background-color: #0096fe;
+}
+.booking{
+  background-color: #3b5998;
+  margin-left:10px;
+}
+.arrival {
+  background-color: #55acee;
+}
+.departure {
+  background-color: #55acee;
+}
+.email {
+  background-color: #55acee;
+}
+
+.midSection{
+  background-color: #f7f7f7;
+  text-align: center;
+
+  height: 580px;
+
+}
+.title{
+  font-weight: normal;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+.section{
+  float: left;
+  width:25%;
+  position:relative;
+
+}
+.section a{
+  cursor: pointer;
+}
+.section a:hover{
+  background-color: teal;
+  opacity: 0.8;
+}
+.desc {
+  width: 80%;
+  display:inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+.tag{
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  color:white;
+}
+.messageSection{
+  text-align:center;
+  border-bottom:1px solid #eee;
+}
+.headings h2{
+  padding-top: 60px;
+  color: #5f5d60;
+  font-weight: normal;
+}
+.headings h3{
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.headings span{
+  color: rgb(224, 64, 77);
+}
+.message{
+  background-color: #011107;
+  opacity: 0.8;
+  padding: 15px 40px;
+  margin-bottom: 80px;
+  box-shadow: 0 7px #1a7940;
+  cursor:pointer;
+}
+.message:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
