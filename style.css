@@ -83,15 +83,7 @@ header{
   background-color: rgba(255,255,255,0.8);
   color: black;
 }
-/* Tambahkan CSS untuk menu-icon */
-.menu-icon {
-color: white;
-float: right;
-font-size: 25px;
-padding: 21px 0;
-/* Gantikan property display ke none */
-display: none;
- }
+
 .container{
   max-width: 1170px;
   with: 100%;
@@ -152,7 +144,11 @@ display: none;
 .email {
   background-color: #55acee;
 }
-
+.fa{
+  margin:5px;
+  height:10px;
+  width:10px;
+}
 .midSection{
   background-color: #f7f7f7;
   text-align: center;
